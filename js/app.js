@@ -1,4 +1,5 @@
 'use strict';
+let Score =0;
 alert ('Hello Welcome here to know about me');
 let age = prompt('Am I 25 years old?');
 if (age.toLowerCase() === 'yes')
@@ -9,6 +10,8 @@ if (age.toLowerCase() === 'yes')
 else {
   //console.log('you are right, I am 29!');
   alert ('you are right, I am 29!');
+  Score ++;
+
 }
 
 let prof = prompt('Am I a software developer?');
@@ -20,6 +23,7 @@ if (prof.toLowerCase() === 'yes')
 else {
   //console.log('you are right, I am an architect!');
   alert ('you are right, I am an architect!');
+  Score ++;
 }
 
 let intrest = prompt('Do you think I like photography?');
@@ -27,6 +31,7 @@ if (intrest.toLowerCase() === 'yes')
 {
   // console.log('you are right');
   alert ('you are right');
+  Score ++;
 }
 else {
   //console.log(':( you're wrong I like it');
@@ -38,6 +43,7 @@ if (like.toLowerCase() === 'yes')
 {
   // console.log('you are right');
   alert ('you are right');
+  Score ++;
 }
 else {
   //console.log(':( you're wrong I like it');
@@ -49,6 +55,7 @@ if (color.toLowerCase() === 'yes')
 {
   // console.log('you are right and I like red also');
   alert ('you are right and I like red also');
+  Score ++;
 }
 else {
   //console.log(':( you're wrong I like it');
@@ -69,10 +76,11 @@ for( let i=0; i<=3; i=i+1){
   }
   else{
     alert ('yeaaah! it is 5');
+    Score ++;
     break;
   }
 }
-alert ('the write answer is 5');
+alert ('the right answer is 5');
 
 //question 7
 let myMovies=['lionking','mulan','cars'];
@@ -80,13 +88,16 @@ for( let i=0; i<=5; i=i+1){
   let movie=prompt('can you guess what is my fav. disney movie');
   if (movie===myMovies[0]) {
     alert ('yeaaah you alright');
+    Score ++;
     break;
   } else if (movie===myMovies[1]) {
     alert ('yeaaah you alright');
+    Score ++;
     break;
   }
   else if (movie===myMovies[2]){
     alert ('yeaaah you alright');
+    Score ++;
     break;
   }
   else{
@@ -95,3 +106,4 @@ for( let i=0; i<=5; i=i+1){
 }
 alert('my fav. movies is ' + myMovies);
 
+alert('your Score is:  ' + Score +' from 7 Ques');
