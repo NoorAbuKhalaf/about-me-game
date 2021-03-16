@@ -1,5 +1,4 @@
 'use strict';
-
 alert ('Hello Welcome here to know about me');
 let age = prompt('Am I 25 years old?');
 if (age.toLowerCase() === 'yes')
@@ -57,5 +56,42 @@ else {
 }
 
 let yourName = prompt('what is your name?');
-alert ('Welcome here and thank you, '+yourName);
+alert ('Welcome nice to meet you, '+yourName);
+
+//question 6
+
+for( let i=0; i<=3; i=i+1){
+  let num=prompt('guess the correct number I liked form 1-15');
+  if (num<5) {
+    alert ('No, too low');
+  } else if (num>5) {
+    alert ('No, too high');
+  }
+  else{
+    alert ('yeaaah! it is 5');
+    break;
+  }
+}
+alert ('the write answer is 5');
+
+//question 7
+let myMovies=['lionking','mulan','cars'];
+for( let i=0; i<=5; i=i+1){
+  let movie=prompt('can you guess what is my fav. disney movie');
+  if (movie===myMovies[0]) {
+    alert ('yeaaah you alright');
+    break;
+  } else if (movie===myMovies[1]) {
+    alert ('yeaaah you alright');
+    break;
+  }
+  else if (movie===myMovies[2]){
+    alert ('yeaaah you alright');
+    break;
+  }
+  else{
+    alert ('try again');
+  }
+}
+alert('my fav. movies is ' + myMovies);
 
