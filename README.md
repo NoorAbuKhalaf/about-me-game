@@ -9,3 +9,6 @@ if you answer these questions that's great but if not welcome to my website to k
 
 ## Reflections and Comments
 ------
+## the navigator :noor abu khalaf
+## the driver :rula al-qasem
+we enjoyed working together.
