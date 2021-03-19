@@ -9,6 +9,6 @@ if you answer these questions that's great but if not welcome to my website to k
 
 ## Reflections and Comments
 ------
-## The Vavigator:  Noor abu khalaf
+## The Navigator:  Noor abu khalaf
 ## The Driver : Rula al-qasem
 we enjoyed working together.
